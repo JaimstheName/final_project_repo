@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>National Park Blog</title>
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="style.css">
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+		<script src="script.js"></script>
+	</head>
+
+	<body>
+		
+
+		<header>
+			<img src="images/NPSLogo.jpg">
+			<nav>
+				<ul>
+					<li>About</li>
+					<li>National Parks</li>
+					<li>What to Bring</li>
+					<li>Travel Tips</li>
+				</ul>
+			</nav>
+		<h1>Park Yourself Here</h1>
+		</header>
+
+		<section id="highlights">
+			<h1>This Week's Highlights</h1>
+			<div class="highlight-wrapper">
+				<div>
+					<h2>Kayaking Through the Channel Islands</h2>
+					<img src="images/KayakingCI.jpg">
+					<p>Channel Islands National Park, California</p>
+					<p class="read-more" id="first-read-more"><a href="#">Read more &gt;</a></p>
+						<p class="hide" id="show-this-on-click">Kayakers Nicole and Marco kayaked their way around the caves of Santa Cruz Island, the largest island of Channel Islands National Park. Click "Learn More" to read about how they navigated their way through the rental, ferry, and camping reservations to coordinate a fun-filled vacation for themselves.</p>
+						<p class="read-less hide"><a href="#">Read less &gt;</a></p>
+					<button class="primary-btn">Learn More</button>
+				</div>
+				
+				<div>
+					<h2>Climbing In Joshua Tree National Park</h2>
+					<img src="images/JoshuaTree.JPG">
+					<p>Joshua Tree National Park, California</p>
+					<p class="read-more" id="second-read-more"><a href="#">Read more &gt;</a></p>
+						<p class="hide" id="show-this-on-click">Devin made his way to Joshua Tree National Park for a weekend trip from Los Angeles to go climbing. Hit "Learn More" to read about how he trained ahead of time for the logistics and challenges of climbing boulders in J-Tree.</p>
+						<p class="read-less hide"><a href="#">Read less &gt;</a></p>
+					<button class="secondary-btn">Learn More</button>
+				</div>
+				
+				<div>
+					<h2>Driving Through Death Valley National Park</h2>
+					<img src="images/DEATHVALLEY.JPG">
+					<p>Death Valley National Park, California</p>	
+					<p class="read-more" id="third-read-more"><a href="#">Read more &gt;</a></p>
+						<p class="hide" id="show-this-on-click">Jaimie took a solo road trip in the dead heat of Death Valley to see the sights. Click "Learn More" to see what kind of sites and books she read ahead of time to make sure she didn't get lost.</p>
+					<button class="tertiary-btn">Learn More</button>
+				</div>
+			</div>
+		</section> 
+		
+		<section id="survey">
+			<h1>What Kinds of Things Would You Like to Hear More About National Parks?</h1>
+
+			<input name="NPHear" type="checkbox" id="weather">
+			<label for="checkbox">Weather</label>
+
+			<input name="NPHear" type="checkbox" id=tourism>
+			<label for="checkbox">Tourism</label>
+
+			<input name="NPHear" type="checkbox" id="dangers">
+			<label for="checkbox">Dangers</label>
+
+			<input name="NPHear" type="checkbox" id="nature">
+			<label for="checkbox">Nature</label>
+
+			<h1>How Many Parks Do You Plan on Travelling to This Year?</h1>
+
+			<input name="travelPlans" type="checkbox" id=0>
+			<label for="checkbox">Zero</label>
+
+			<input name="travelPlans"type="checkbox" id="onetofive">
+			<label for="checkbox">1-5</label>
+
+			<input name="travelPlans" type="checkbox" id="fivetoten">
+			<label for="checkbox">5-10</label>
+
+			<input name="travelPlans" type="checkbox" id="ten">
+			<label for="checkbox">More Than 10</label>
+
+			<h1>How Much Time Do You Spend Thinking About National Parks?</h1>
+
+			<select>
+      		<option value="option1">Once In A While</option>
+      		<option value="option2"> Sometimes</option>
+      		<option value="option3">All of The Time</option>
+    		</select>
+
+			<h1>Which Kind of Experience Appeals to You Most?:</h1>
+
+		</section>
+
+		<section id="adventures">
+			<h1>Snowy Adventures</h1>
+			<img src="images/Yellowstone.jpg">	
+			<p>
+			<input type="checkbox"></p>
+		</section>
+
+		<section id="encounters">
+			<h1>Wildlife Encounters</h1>
+			<img src="images/everglades-airboat-tour-alligator.jpg">
+			<p><input type="checkbox"></p>
+		</section>
+
+		<section id="experiences">
+			<h1>Educational Experiences</h1>
+			<img src="images/ranger.jpg">
+			<p><input type="checkbox"></p>
+		</section>
+
+		<section id="newsletter">
+		</section>
+		<footer> 
+			<p><p>Join our newsletter!</p>
+			<p><input type="name" placeholder="Your Name">
+			<input type="email" placeholder="Your Email">
+			<input type="submit"></p>
+	`		<p>Jaimie Stevens - 					jaimiestevens@parkyourselfhere.	com - 239-980-0034</p>
+		
+		</footer>
+	
+	</body>
+
+</html>

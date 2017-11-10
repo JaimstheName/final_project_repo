@@ -1,0 +1,130 @@
+}
+#logo{
+  width: 150px;
+  height: 150px;
+}
+body {
+	display:grid;
+	background-color: #556B2F; 
+  grid-template-rows: repeat(8, minmax(200px, auto));
+	grid-template-columns: 100%;
+	grid-template-areas: "header"
+							"highlights"
+              "survey"
+							"adventures"
+							"encounters"
+							"experiences" 
+							"Newsletter"
+							"footer";
+/*  color: blue;
+  font-size: 14px;
+  line-height: 2;
+  font-family: 'Roboto';
+  font-weight: 300;*/
+}
+nav {
+  text-align: center;
+  display: inline;
+  width: 250px;
+  height:100px;
+  background: blue;
+  padding: 10 10 10 10;
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+
+}
+
+ul li{
+  padding: 10px 10px 10px 10px;
+}
+header{
+	background-size:cover;
+  background-image: url("images/Yosemite.jpg");
+  text-align: center;
+  font-size: 35px; 
+  font-style: verdana;
+  grid-area: header;
+  height:500px;
+  padding: 0px 50px;
+  justify-content:space-around;
+  /*flex-direction:column;*/
+  align-items:flex-start;
+  /*flex-direction: column;*/
+}
+
+.highlight-wrapper img {
+  width: 100%;
+  max-height: 225px;
+}
+
+section{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align:center;
+  font-size:20px;
+}
+
+p{
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+}
+
+button{
+  align: center;
+}
+
+button {
+  margin: auto;
+  display: block;
+}
+
+#highlights{
+	grid-area:highlights;
+}
+
+#survey{
+  grid-area:survey;
+
+}
+.highlight-wrapper{
+	display:flex;
+}
+
+.highlight-wrapper div{
+	width:33.3%;
+}
+
+.highlight-wrapper img{
+	width: 100%;
+}
+#adventures{
+	grid-area:adventures;
+
+}
+#encounters{
+	grid-area:encounters;
+}
+#experiences{
+	grid-area:experiences;
+}
+#newsletter{
+	grid-area:newsletter;
+  align-items: center;
+}
+
+footer{
+	grid-area:footer;
+
+}
+
